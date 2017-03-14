@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scales</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="up_wrapper">
+		<input type="button" name="Reset" value="Reset" id="Reset">
+		<div id="options">
+			<span>Options: </span>
+			<label><input type="checkbox" name="ScaleArrow" id="scaleArrow">Scale Arrow</label>
+			<label><input type="checkbox" name="DisplayWeighs" id="displayWeighs">Display Weighs</label>
+		</div>
+		<div id="notes">(c) 2016</div>
+	</div>
+	<div id="scales">
+		<div id="indicator">
+			<div id="indicatorText"></div>
+		</div>
+		<div id="left_scale"></div>
+		<div id="right_scale"></div>
+	</div>
+	<div id="weighs">
+		<div id="bag0" class="bag" draggable="true"></div>
+		<div id="bag1" class="bag" draggable="true"></div>
+		<div id="bag2" class="bag" draggable="true"></div>
+		<div id="bag3" class="bag" draggable="true"></div>
+		<div id="bag4" class="bag" draggable="true"></div>
+		<div id="bag5" class="bag" draggable="true"></div>
+		<div id="bag6" class="bag" draggable="true"></div>
+		<div id="bag7" class="bag" draggable="true"></div>
+		<div id="bag8" class="bag" draggable="true"></div>
+		<div id="bag9" class="bag" draggable="true"></div>
+		<div id="bag10" class="bag" draggable="true"></div>
+		<div id="bag11" class="bag" draggable="true"></div>
+	</div>
+	<div id="floor"></div>
+	<script>
+  		var main = new TMain();
+ 	</script>
+</body>
+</html>
